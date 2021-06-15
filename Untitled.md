@@ -1,39 +1,36 @@
----
-title: "Word Predictor App"
-author: "Luoyan Yong"
-date: "6/15/2021"
-output: ioslides_presentation
----
+Word Prediction App
+========================================================
+author: Luoyan Yong
+date: 15-06-2021
+autosize: true
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
-## App descrption
-
+App description
+========================================================
 The goal of the app is to make typing easier and faster for users by **predicting** the
 next words the user is going to input following what the user has already typed. 
 
-### Limitations:
+**imitations**
 Since the model builds on a great deal of data (~4.4million), the computation time it takes to form a prediction is long. So instead of using the entire dataset, a random sample of it is used. This can reduce computation time at the cost of some accuracy.
 
-### Try it out!
+**Try it out**
+[ here!](https://luoyan-yong.shinyapps.io/word_prediction_app_lyong/)
 
-## App basic function
+App basic function
+========================================================
 The app takes single word or phrases as input
 
-![app demo](/Users/lyong/Desktop/Courses_and_Workshops/R_Programming/Coursera_Data_Science_with_R _Specialisation/10_Capsone_project/pred_word_shiny_presentation/app_demo.jpg)
+![app demo](app_demo.jpg)
 
-
-## App secondary function
+App secondary function
+========================================================
 User can also view information about the dataset used to build the model:
 
 - top 10 bigrams
 - top 10 trigrams
 - word cloud of top 100 words
 
-## How does the prediction work?
+How does the prediction work?
+========================================================
 1. A 30,000 sample of sentences taken from various sources(news, blogs, twitter).
 
 2. The whole data set is stripped of punctuations and common stop words, and then broken down into pairs/triplets of words (bigrams/trigrams)

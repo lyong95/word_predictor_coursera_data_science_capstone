@@ -1,0 +1,13 @@
+name: word_prediction_app_lyong
+title: word_prediction_app_lyong
+username:
+account: luoyan-yong
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4275561
+bundleId: 4719550
+url: https://luoyan-yong.shinyapps.io/word_prediction_app_lyong/
+when: 1623772459.17339
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app_demo.jpg|word_pred_app_presentation.html|word_pred_app_presentation.Rmd
