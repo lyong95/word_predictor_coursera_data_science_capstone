@@ -14,13 +14,10 @@ library(wordcloud2)
 library(stopwords)
 
 
-## set wd
-setwd("/Users/lyong/Desktop/Courses_and_Workshops/R_Programming/Coursera_Data_Science_with_R _Specialisation/10_Capsone_project/")
-
 ## create different ngrams
-unigram = read.csv("./unigram.csv")
-bigram = read.csv("./bigram.csv")
-trigram = read.csv("./trigram.csv")
+unigram = read.csv("./data/unigram.csv")
+bigram = read.csv("./data/bigram.csv")
+trigram = read.csv("./data/trigram.csv")
 
 # separate bigrams and trigrams into individual wordsz
 ngram3 = separate(trigram, ngram, c("word1", "word2", "word3"), sep = " ")

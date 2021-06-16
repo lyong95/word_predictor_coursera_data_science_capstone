@@ -1,0 +1,13 @@
+name: pred_word_app
+title: pred_word_app
+username:
+account: luoyan-yong
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4275726
+bundleId: 4722048
+url: https://luoyan-yong.shinyapps.io/pred_word_app/
+when: 1623829934.68602
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app_demo.jpg|Untitled-rpubs.html|Untitled.md|word_pred_presentation-rpubs.html|word_pred_presentation.md|word_pred_presentation.Rpres|Untitled-figure/unnamed-chunk-2-1.png
